@@ -5,7 +5,11 @@ body {
     font-family: 'Secular One', sans-serif;
     overscroll-behavior-y: none;
 }
-
+@media only screen and (max-width: 600px) {
+  .headerTitle {
+    opacity: 0;
+  }
+}
 
 .banner {
     height: 700px;
