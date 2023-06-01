@@ -5,11 +5,7 @@ body {
     font-family: 'Secular One', sans-serif;
     overscroll-behavior-y: none;
 }
-@media only screen and (max-width: 600px) {
-  .headerTitle {
-    opacity: 0;
-  }
-}
+
 
 .banner {
     height: 700px;
@@ -324,9 +320,6 @@ hr {
 
 }
 
-
-
-
 .headerTitle {
   text-align: left;
   position: fixed;
@@ -334,6 +327,7 @@ hr {
   z-index: 4;
   z-index: 99999999;
 }
+
 .nav {
   height: 70px;
   position: sticky;
@@ -355,4 +349,18 @@ hr {
 
 .banner p {
   text-align: center;
+}
+
+.explanation {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.summaryTitle{
+  font-size: 3vh;
+  cursor: pointer;
+}
+
+.explanation p {
+  font-size: 2.75vh;
 }
